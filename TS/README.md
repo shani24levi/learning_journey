@@ -10,6 +10,9 @@ using types list at : https://unpkg.com/@types/react@16.4.7/index.d.ts
 TypeScript is JavaScript with syntax for types.
 TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
+TypeScript is JavaScript’s runtime with a compile-time type checker
+
+
 ## Topics
 
 - ts vs js
