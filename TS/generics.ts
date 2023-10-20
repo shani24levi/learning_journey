@@ -52,6 +52,59 @@ function simpleState<T>(initial: T): [() => T, (v: T) => void] {
       hp: 5,
     },
   ];
-  
   const ranks = ranker(pokemon, ({ hp }) => hp);
   console.log(ranks);
+
+
+
+
+  /* with key of
+  DataType - genric unknown
+  KeyType - one of the key in the DataType , it means the DataType is array of objects/ object with key elements  with key-value
+  keyof- keyof T genric is arr of objects/ object the extands the keyyy!!! 
+
+  ex:
+  DataType - [{a: "1"}, {b: "2"}]
+  KeyType - { "a", "b" } only the key of the object
+
+  DataType - {a: "1" ,b: "2"}
+  KeyType - { "a", "b" } only the key of the object
+  */
+  function pluck<DataType, KeyType extends keyof DataType>(
+    items: DataType[],
+    key: KeyType
+  ): DataType[KeyType][] {
+    return items.map((item) => item[key]);
+  }
+  
+  const dogs = [
+    { name: "Mimi", age: 12 },
+    { name: "LG", age: 13 },
+  ];
+  
+  console.log(pluck(dogs, "age"));
+  console.log(pluck(dogs, "name"));
+  
+  interface BaseEvent {
+    time: number;
+    user: string;
+  }
+  interface EventMap {
+    addToCart: BaseEvent & { quantity: number; productID: string };
+    checkout: BaseEvent;
+  }
+  
+  function sendEvent<Name extends keyof EventMap>(
+    name: Name,
+    data: EventMap[Name]
+  ): void {
+    console.log([name, data]);
+  }
+  
+  sendEvent("addToCart", {
+    productID: "foo",
+    user: "baz",
+    quantity: 1,
+    time: 10,
+  });
+  sendEvent("checkout", { time: 20, user: "bob" });

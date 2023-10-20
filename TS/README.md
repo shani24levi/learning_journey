@@ -12,6 +12,8 @@ TypeScript is a strongly typed programming language that builds on JavaScript, g
 
 TypeScript is JavaScript’s runtime with a compile-time type checker
 
+`Easy peasy lemon squeezy`
+
 
 ## Topics
 
