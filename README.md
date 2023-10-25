@@ -16,3 +16,4 @@ Learning by files divided into topics
 - React vs Angler
 - opp and clean code 
 - sql 
+- ISTQB certification
