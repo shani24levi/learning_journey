@@ -11,8 +11,13 @@ TypeScript is JavaScript’s runtime with a compile-time type checker
 
 ## Topics
 
--   ts vs js
--
+-   ts basic
+-   ganeric
+-   state
+-   global state using react-use
+-   global state using useContastApi
+-   global state store redux toolkit
+-   ul list ganric
 
 ## runing by
 
