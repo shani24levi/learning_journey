@@ -6,6 +6,12 @@ import React, {
     useRef,
 } from 'react'
 import './App.css'
+import {
+    TodosProvider,
+    useTodos as UstodoC,
+    useAddTodo,
+    useRemoveTodo,
+} from './useTodosConrext'
 import { useTodos } from './useTodos'
 
 const Heading = ({ title }: { title: string }) => <h2>{title}</h2>
@@ -80,6 +86,10 @@ const Incrementer: React.FunctionComponent<{
 )
 
 function App() {
+    const todos2 = UstodoC()
+    const addTodo2 = useAddTodo()
+    const removeTodo2 = useRemoveTodo()
+
     const onListClick = useCallback((item: string) => {
         alert(item)
     }, [])
@@ -123,7 +133,8 @@ function App() {
 
     const onAddTodo = useCallback(() => {
         if (newTodoRef.current) {
-            addTodo(newTodoRef.current.value)
+            // addTodo(newTodoRef.current.value)
+            addTodo2(newTodoRef.current.value)
             // dispatch({
             //     type: 'ADD',
             //     text: newTodoRef.current.value,
@@ -135,34 +146,21 @@ function App() {
     const [value, setValue] = useNumber(0)
 
     return (
-        <div>
-            <Heading title="Introduction" />
-            <Box>Hello there</Box>
-            <List items={['one', 'two', 'three']} onClick={onListClick} />
-            <Box>{JSON.stringify(payload)}</Box>
-            <Incrementer value={value} setValue={setValue} />
-
-            <Heading title="Todos" />
-            {todos1.map((todo) => (
-                <div key={todo.id}>
-                    {todo.text}
-                    <button
-                        onClick={() =>
-                            dispatch({
-                                type: 'REMOVE',
-                                id: todo.id,
-                            })
-                        }
-                    >
-                        Remove
-                    </button>
-                </div>
-            ))}
-            <div>
-                <input type="text" ref={newTodoRef} />
-                <Button onClick={onAddTodo}>Add Todo</Button>
+        <TodosProvider
+            initialTodos={[
+                { id: 0, text: 'Hey there useContext', done: false },
+            ]}
+        >
+            <div
+                style={{
+                    display: 'grid',
+                    gridTemplateColumns: '50% 50%',
+                }}
+            >
+                <App></App>
+                {/* <JustShowTodos /> */}
             </div>
-        </div>
+        </TodosProvider>
     )
 }
 
