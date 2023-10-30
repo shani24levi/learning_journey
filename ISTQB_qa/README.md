@@ -13,12 +13,16 @@
 ## Links Ref
 - https://www.udemy.com/course/introduction-to-software-testing-or-software-qa/learn/lecture/28166116#overview
 - https://www.freecodecamp.org/learn/quality-assurance/
+- automation:
+https://selenium-python.readthedocs.io/
+
+- 
 
 ## Topics
 
 -   Fundamentals of Testing
 -   Agile with Atlassian Jira
--   
+-   test case
 -   
 -   
 -   
