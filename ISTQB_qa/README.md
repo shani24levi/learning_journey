@@ -35,6 +35,9 @@ https://selenium-python.readthedocs.io/
 -   guru99.com
 - utest.com  -   https://www.utest.com/academy/tracks/1/courses/what-is-software-testing 
 - supersqa.com
+- https://www.youtube.com/watch?v=Xjv1sY630Uc&list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
+
+
 
 ## Automation Tools 
 <img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/python.svg" width="30">
