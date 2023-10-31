@@ -23,10 +23,21 @@ https://selenium-python.readthedocs.io/
 -   Fundamentals of Testing
 -   Agile with Atlassian Jira
 -   test case
+- Different types of testing at uTest
+- How to be a high quality tester
+- How to accept or decline a test cycle
+- How to find a bug and submit an issue report
+- How to claim a testing slot
+- How to complete a test case
+- How to capture screenshots and videos
+- How to record computer and device logs
+- How to communicate with the community and Test Team Lead in chat
 -   
 -   
 -   
--   
+
+
+
 
 ## Links use for testing
 
