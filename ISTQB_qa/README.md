@@ -15,8 +15,8 @@
 - https://www.freecodecamp.org/learn/quality-assurance/
 - automation:
 https://selenium-python.readthedocs.io/
+-  docs selenuim py : https://selenium-python.readthedocs.io/
 
-- 
 
 ## Topics
 
@@ -39,7 +39,7 @@ https://selenium-python.readthedocs.io/
 
 
 
-## Links use for testing
+## Websites Links use for testing
 
 -   testLink
 -   testRail (not free)
