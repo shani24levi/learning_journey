@@ -21,8 +21,13 @@ class PythonSearch(unittest.TestCase):
     def test_search_in_python_org(self):
         """ def starts in test_((name of the func))
             tset_ meens to testCase we need it do preform test inehreted """
-        print("test")
+        print("test1")
         assert True
+
+    def test_page(self):
+        print("test2")
+        mainPage= page.MainPage()
+        assert mainPage.is_matches()
 
     def tearDown(self):
         self.driver.close()
@@ -34,7 +39,7 @@ if __name__ == "__main__":
 
 # output:
 """
-test
+test1
 .C:\Users\shani\.conda\envs\pyinstallerD\lib\unittest\suite.py:84: ResourceWarning: unclosed <socket.socket fd=632, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=0, laddr=('::1', 51802, 0, 0), raddr=('::1', 51799, 0, 0)>
   return self.run(*args, **kwds)
 ResourceWarning: Enable tracemalloc to get the object allocation traceback

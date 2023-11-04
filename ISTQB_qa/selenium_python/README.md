@@ -42,6 +42,7 @@ There are a number of details you can query about a specific element.
 
 ## Refaces
 docs: https://www.selenium.dev/documentation/ </br>
+docs selenuim py : https://selenium-python.readthedocs.io/ </br>
 
 video guid: https://www.youtube.com/watch?v=b5jt2bhSeXs&list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&index=2
 

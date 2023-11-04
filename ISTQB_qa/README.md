@@ -15,7 +15,7 @@
 - https://www.freecodecamp.org/learn/quality-assurance/
 - automation:
 https://selenium-python.readthedocs.io/
--  docs selenuim py : https://selenium-python.readthedocs.io/
+
 
 
 ## Topics
