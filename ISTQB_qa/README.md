@@ -10,11 +10,6 @@
   </strong>
   </p>
 
-## Links Ref
-- https://www.udemy.com/course/introduction-to-software-testing-or-software-qa/learn/lecture/28166116#overview
-- https://www.freecodecamp.org/learn/quality-assurance/
-- automation:
-https://selenium-python.readthedocs.io/
 
 
 ## Automation Tools 
@@ -35,6 +30,16 @@ https://selenium-python.readthedocs.io/
 <img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@9.19.0/icons/selenium.svg" width="30">
 
 <img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@9.19.0/icons/pycharm.svg" width="30">
+
+</br></br>
+
+
+## Links Ref
+- https://www.udemy.com/course/introduction-to-software-testing-or-software-qa/learn/lecture/28166116#overview
+- https://www.freecodecamp.org/learn/quality-assurance/
+- automation:
+https://selenium-python.readthedocs.io/
+
 
 
 ## Topics
