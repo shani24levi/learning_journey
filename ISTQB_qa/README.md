@@ -17,6 +17,25 @@
 https://selenium-python.readthedocs.io/
 
 
+## Automation Tools 
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/python.svg" width="30">
+
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/jenkins.svg" width="30">
+
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/linux.svg" width="30">
+
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/docker.svg" width="30">
+
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/amazonaws.svg" width="30">
+
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/java.svg" width="30">
+
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/mysql.svg" width="30">
+
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@9.19.0/icons/selenium.svg" width="30">
+
+<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@9.19.0/icons/pycharm.svg" width="30">
+
 
 ## Topics
 
@@ -37,8 +56,6 @@ https://selenium-python.readthedocs.io/
 -   
 
 
-
-
 ## Websites Links use for testing
 
 -   testLink
@@ -50,24 +67,7 @@ https://selenium-python.readthedocs.io/
 
 
 
-## Automation Tools 
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/python.svg" width="30">
 
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/jenkins.svg" width="30">
-
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/linux.svg" width="30">
-
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/docker.svg" width="30">
-
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/amazonaws.svg" width="30">
-
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/java.svg" width="30">
-
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/mysql.svg" width="30">
-
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@9.19.0/icons/selenium.svg" width="30">
-
-<img align="left" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/simple-icons@9.19.0/icons/pycharm.svg" width="30">
 
 
 
