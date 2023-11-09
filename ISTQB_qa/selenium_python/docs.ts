@@ -9,5 +9,8 @@ Selenium Grid הוא שרת המאפשר לבדיקות להשתמש במופע�
 Selenium WebDriver is used to automate web application testing to verify that it works as expected. It supports many browsers such as Firefox, Chrome, IE, and Safari. However, using the Selenium WebDriver, we can automate testing for web applications only.
 We can’t perform automation tests on web services like SOAP or REST using Selenium.
 
+
+מודול Python של Selenium בנוי לביצוע בדיקות אוטומטיות עם Python. כריכות Selenium Python מספקות API פשוט לכתיבת מבחני פונקציונליות/קבלה באמצעות Selenium WebDriver. דרך Selenium Python API אתה יכול לגשת לכל הפונקציות של Selenium WebDriver בצורה אינטואיטיבית. כדי לבדוק פרטים נוספים על סלניום, בקר ב- Selenium Basics – רכיבים, תכונות, שימושים ומגבלות.
+
 * 
  */
