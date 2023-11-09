@@ -46,6 +46,9 @@ docs selenuim py : https://selenium-python.readthedocs.io/ </br>
 
 video guid: https://www.youtube.com/watch?v=b5jt2bhSeXs&list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&index=2
 
+selenuim py gaid: https://www.geeksforgeeks.org/selenium-python-tutorial/
+
+
 ## Need To Know
 - basic html element
 - css class is not quink for spastic element
