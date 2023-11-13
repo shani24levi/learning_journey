@@ -21,3 +21,5 @@ using types list at : https://unpkg.com/@types/react@16.4.7/index.d.ts
 
 
 ## setting installation of ts compiler by  
+- npx create-next-app@latest
+
